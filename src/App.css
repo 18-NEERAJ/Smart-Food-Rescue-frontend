@@ -1,0 +1,33 @@
+*{box-sizing:border-box}body{margin:0;background:#f3f7f4;color:#243c34;font-family:Arial,sans-serif}main{max-width:1120px;margin:auto;padding:24px}header{background:linear-gradient(110deg,#135e4a,#248f72);color:white;padding:36px;border-radius:18px}header span{font-size:13px;letter-spacing:2px;font-weight:bold}h1{margin:15px 0 8px;font-size:30px}header p{opacity:.9}.stats{display:grid;grid-template-columns:repeat(3,1fr);gap:14px;margin:20px 0}.stats div,.panel{background:white;border:1px solid #e0ebe4;border-radius:14px;padding:22px;box-shadow:0 3px 15px #123a2910}.stats strong{display:block;font-size:29px;color:#14785c}.stats span{font-size:13px;color:#667a70}.panel{margin-bottom:20px}h2{font-size:20px;margin:0 0 20px}form{display:grid;grid-template-columns:repeat(2,1fr);gap:16px}label{display:flex;flex-direction:column;gap:7px;font-size:13px;font-weight:bold}input{padding:12px;border:1px solid #ceddd4;border-radius:8px;font:inherit}button{background:#167b5c;color:white;border:0;border-radius:7px;padding:11px 16px;cursor:pointer;font-weight:bold}form button{grid-column:1/-1}.scroll{overflow-x:auto}table{width:100%;border-collapse:collapse;min-width:850px}th,td{padding:12px;text-align:left;border-bottom:1px solid #e9eeea;font-size:13px}th{background:#f5faf6}.tag{font-size:11px;font-weight:bold;border-radius:30px;padding:6px 9px}.AVAILABLE{background:#def5e6;color:#167444}.CLAIMED{background:#fff2ce;color:#966a0c}.DELIVERED{background:#dceeff;color:#2265a3}.action,.danger{font-size:12px;padding:8px;margin:2px}.danger{background:#d94e50}.error{color:#b52332}footer{text-align:center;color:#718278;font-size:12px;padding:12px}@media(max-width:650px){form,.stats{grid-template-columns:1fr}main{padding:12px}header{padding:24px}h1{font-size:24px}}
+
+.btn-submit {
+  background-color: #16a34a;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  padding: 12px 20px;
+  font-size: 16px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.btn-submit:hover {
+  background-color: #15803d;
+}
+
+.btn-submit:disabled {
+  background-color: #9ca3af;
+  cursor: not-allowed;
+}
+
+.success {
+  color: #15803d;
+  font-weight: bold;
+  margin-top: 12px;
+}
+
+.error {
+  color: #dc2626;
+  font-weight: bold;
+  margin-top: 12px;
+}
